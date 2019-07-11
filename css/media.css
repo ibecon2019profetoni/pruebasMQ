@@ -73,12 +73,13 @@ and (min-width:1366px)
     }
 
     .barraNav__logo__isotipo{
-        margin-top: 90px;
+        margin-top: 130px;
     }
     .barraNav__logo__logotipo::before{
         content: "Marca";
         font-size: 3.5rem;
-        
+        display: block;
+        transform: rotate(90deg) translateX(50px);
     }
 
     .barraNav__nav{
