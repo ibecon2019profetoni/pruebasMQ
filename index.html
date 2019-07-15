@@ -42,7 +42,7 @@
     <div class="barraNav">
         <!-- logotipo -->
         <div class="barraNav__logo">
-            <img src="logo.svg" alt="logo marca" class="barraNav__logo__isotipo">
+            <img src="_assets/img/svg/logo.svg" alt="logo marca" class="barraNav__logo__isotipo">
             <span class="barraNav__logo__logotipo"></span>
         </div>
 
@@ -64,13 +64,35 @@
     </div>
 </header>
 
-<section>
+<section class="banner">
     <picture>
-
-    </picture>
+        <!-- Por defecto, baja resolución de imagen para Smartphone -->
+        <source srcset="_assets/img/smartphone/banner.jpg 1x,
+                                  _assets/img/smartphone/banner@2x.jpg 2x,
+                                  _assets/img/smartphone/banner@3x.jpg 3x"
+                     media="(min-width:320px) and (max-width:450px)">
+        
+        
+        <!-- Alta resolución para Escritorio -->
+        <source srcset="_assets/img/desktop/banner.jpg 1x,
+                        _assets/img/desktop/banner@2x.jpg 2x"
+                     media="(min-width:1366px)">
+        
+        
+        <!-- Imagen de respaldo en caso que no se admita el elemento picture -->
+        <img src="_assets/img/smartphone/banner.jpg" alt="Explicación de la imagen">
+        
+        </picture>
 </section>
 
+<section class="spHorizontal">
+    <span class="flecha">&#9660</span>
+</section>
 
+<section class="texto">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur minima accusamus tempore dicta similique quam voluptatum, amet velit omnis? Consequatur corporis natus numquam explicabo atque esse? Aut hic voluptates voluptatum officia obcaecati facilis, error, repudiandae, magnam aspernatur esse quisquam aliquid ea ipsam? Id unde adipisci doloribus dolores laborum laudantium provident, vero pariatur? Eum blanditiis natus consequatur! Molestiae nisi a animi laboriosam fugiat possimus rerum minima eligendi. Aliquid facilis tenetur necessitatibus possimus sit, obcaecati enim illo natus aperiam est dolores autem deleniti rem, fugit ratione nobis libero, ab animi dolorum error unde? Debitis sit nesciunt assumenda voluptates enim dolores et accusantium perspiciatis rerum quaerat! Atque animi in aperiam explicabo placeat nobis nulla distinctio asperiores, non nihil maxime illum corrupti voluptatum commodi velit ut, eos maiores vero doloribus ipsum. Molestias, molestiae. Deleniti magni perspiciatis mollitia distinctio! Cumque repellendus illum, officia sint dolor veniam est nihil, ex nostrum quod fuga, quam numquam voluptas reprehenderit placeat. Eos consequatur nemo provident, dolorem perferendis ab minus voluptates nam autem molestias quis fugit laboriosam aliquid repellat, quas laborum maxime omnis dicta. Iste quas, doloremque omnis fugit sint ut, ipsa ullam nesciunt unde, consequatur tempora. Perspiciatis fuga unde laudantium eius totam sunt sapiente soluta omnis eveniet! Aperiam quos, culpa distinctio, obcaecati iusto ducimus, soluta adipisci non expedita beatae asperiores optio. Alias, placeat totam molestiae repellat fugit dignissimos possimus ex provident ullam cupiditate quod harum quae itaque ut labore maxime aperiam omnis sed! Similique, enim illum assumenda doloremque sequi praesentium odit et autem odio quod vel sed impedit ratione eaque qui id repellat dolorum, delectus fuga, ab doloribus? Laborum velit, inventore laudantium a quia libero? Et earum quas qui porro exercitationem sit, possimus reprehenderit corporis quis corrupti nihil repudiandae sunt quaerat recusandae praesentium illum modi tempore, dolore vitae dolor a magnam voluptas aspernatur. Iusto, sapiente corrupti. Ducimus quo dolor reiciendis quaerat voluptas eos explicabo facilis qui dolorem dolorum!</p>
+</section>
 
+<section class="spHorizontal"></section>
 </body>
 </html>

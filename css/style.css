@@ -36,11 +36,23 @@ a{
 .barraNav{
     padding: 0.5rem 1rem;
 }
+.texto{
+    padding: 0 2rem;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+.spHorizontal{
+    height: 3rem;
+    text-align: center;
 
+}
 
 /* Tamaños */
 .barraNav{
     height: 70px;
+}
+.flecha{
+    font-size: 2rem;
 }
 
 /* MAQUETACIÓN */
